@@ -4,14 +4,14 @@ A simple note application that allows users to create, read, update, and delete 
 
 ## Project setup steps
 
-### - Environment Preparation:
+#### Environment Preparation:
 
 - Download and install IDE ([vscode](https://code.visualstudio.com/download)
   or [android studio](https://developer.android.com/studio)).
 - Download and install [Flutter](https://docs.flutter.dev/get-started/install).
 - Android emulator or device.
 
-### - Project Initialization:
+#### Project Initialization:
 
 - Clone or download this repository to your local machine.
 
@@ -46,13 +46,13 @@ between users.
 
 ## Any assumptions or trade-offs made
 
-### - Assumptions
+#### Assumptions
 
 - Users must be authenticated before accessing notes.
 - Each note belongs to a single note.
 - Internet connection is required for authentication and CRUD operations.
 
-### - Trade-offs
+#### Trade-offs
 
 - Using `Consumer` (from `provider`) instead of `StreamBuilder` to handle stream-based data updates. This
   decision was made to centralize state management within a single architecture layer and making
