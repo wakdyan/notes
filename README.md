@@ -51,9 +51,11 @@ between users.
 - Users must be authenticated before accessing notes.
 - Each note belongs to a single note.
 - Internet connection is required for authentication and CRUD operations.
+- Users are assumed to be familiar with mobile gestures, as deleting a note is handled via a swipe
+  action.
 
 #### Trade-offs
 
-- Using `Consumer` (from `provider`) instead of `StreamBuilder` to handle stream-based data updates. This
-  decision was made to centralize state management within a single architecture layer and making
-  state easier to manage across multiple widgets.
+- Using `Consumer` (from `provider`) instead of `StreamBuilder` to handle stream-based data updates.
+  This decision was made to centralize state management within a single architecture layer and
+  making state easier to manage across multiple widgets.
