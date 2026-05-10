@@ -41,8 +41,8 @@ between users.
 
 - Provider: Firebase Authentication
 - Method: Email and Password
-- Mechanism: Implements an Auth Wrapper that listens to `authStateChanges`. This ensures that if a
-  user is already logged in, they are redirected straight to the Home Screen upon app launch.
+- Mechanism: Implements an auth wrapper (`RootPage`) that listens to `authStateChanges`. This ensures that if a
+  user is already logged in, they are redirected straight to the `HomePage` upon app launch.
 
 ## Any assumptions or trade-offs made
 
