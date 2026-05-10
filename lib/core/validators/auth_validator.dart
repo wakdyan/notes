@@ -1,16 +1,16 @@
 class AuthValidator {
   static String? emailValidator(String? value) {
     if (value == null || value.isEmpty) {
-      return 'Email tidak boleh kosong';
+      return 'Please enter an email address';
     }
     return null;
   }
 
   static String? passwordValidator(String? value) {
     if (value == null || value.isEmpty) {
-      return 'Password tidak boleh kosong';
+      return 'Please enter a password';
     } else if (value.length < 6) {
-      return 'Password tidak boleh kurang dari 6 karakter';
+      return 'Password must be at least 6 characters';
     } else {
       return null;
     }
